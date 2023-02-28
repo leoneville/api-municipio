@@ -8,7 +8,7 @@ Renomeie o arquivo .env.example para .env e preencha as variáveis de ambiente c
 Na variável de ambiente `FLASK_APP=` coloque o nome do arquivo utilizado para iniciar o projeto.<br/>
 
 ### 3 - Comandos para rodar o projeto
-Abra um terminal e digite os seguintes comandos:
+Abra o terminal e digite os seguintes comandos:
   1. `docker-compose up -d`
   2. `pip install -r requirements.txt`
   3. `python .\main.py`
