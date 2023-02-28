@@ -1,0 +1,33 @@
+insert into estado (id, nome, sigla)
+                   VALUE (11, 'Rondonia', 'RO'),
+                   (17, 'Tocantins', 'TO'),
+                   (23, 'Ceara', 'CE'),
+                   (26, 'Pernambuco', 'PE'),
+                   (28, 'Sergipe', 'SE');
+
+insert into municipio (nome, id_estado)
+                   VALUE ('PORTO VELHO', 11),
+                   ('BURITIS', 11),
+                   ('ARIQUEMES', 11),
+                   ('VILHENA', 11),
+                   ('CACOAL', 11),
+                   ('PALMAS', 17),
+                   ('GURUPI', 17),
+                   ('PORTO NACIONAL', 17),
+                   ('ARAGUATINS', 17),
+                   ('COLINAS DO TOCANTINS', 17),
+                   ('ARACATI', 23),
+                   ('PACAJUS', 23),
+                   ('CASCAVEL', 23),
+                   ('FORTALEZA', 23),
+                   ('AQUIRAZ', 23),
+                   ('RECIFE', 26),
+                   ('OLINDA', 26),
+                   ('CARUARU', 26),
+                   ('PETROLINA', 26),
+                   ('PAULISTA', 26),
+                   ('ARACAJU', 28),
+                   ('NOSSA SENHORA DO SOCORRO', 28),
+                   ('LAGARTO', 28),
+                   ('ITABAIANA', 28),
+                   ('ITABAIANINHA', 28);
