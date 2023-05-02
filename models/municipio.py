@@ -16,7 +16,7 @@ class Municipio(db.Model):
     
 class CriarMunicipio(BaseModel):
     nome: str
-    idEstado: int
+    id_estado: int
 
 class AtualizarMunicipio(BaseModel):
     nome: str
